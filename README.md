@@ -36,3 +36,16 @@ or:
 Σ(Inputᵢ * Weightᵢ)
 ```
 
+## Activation Function
+
+The activation function takes the incoming signal to the neuron and translates it 
+to the neuron's output.
+
+```
+neuron output = ActivationFunction(incomingSignal)
+```
+
+For this demo, we'll use the *sigmoid function* as our activation function.
+The sigmoid function uses Euler's number (e): 1 / 1+e^-x, where x is the input.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/640px-Logistic-curve.svg.png" />
