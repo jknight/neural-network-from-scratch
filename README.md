@@ -1,4 +1,11 @@
-## Problem
+## Purpose 
+
+This code follows a [tutorial](https://www.udemy.com/course/machine-learning-build-a-neural-network-in-77-lines-of-code) 
+for building a simple neural network from scratch. The goal of this is to understand 
+the inner workings of a neural network from first principles, and to build a very simple 
+"hello world" neural network.
+
+## Goal
 
 Given a input sequence of 4 numbers (0 or 1) that outputs a single number (0 or 1),
 create a neural network that can predict the output.
