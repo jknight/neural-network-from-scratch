@@ -58,3 +58,40 @@ Neuron input: Σ(Inputᵢ*Weightᵢ)
 Neuron output:  1 / 1 + e^(-NeuronInput)
 ```
 
+## Training Process
+
+We start by assigning *random* numbers to our weights. We'll use values ranging
+between 0 and 1 for our random weights.
+
+We first predict the output for a training set example and check the output
+against the expected value. The difference between the predicted value and the 
+expected value is the `error`. We then adjust our weights to reduce the error,
+and this feeds back into the network. This is now the network learns.
+We'll repeat this process thousands of time and by the end of the training,
+the neural network will have learned from the readjusted weights.
+
+
+## Error Cost Function
+
+The error cost function, also known as a "loss function", is the correct output
+minus the predicted output, squared, for each example in the training set:
+
+```
+Σ 1/2(correctOutput - predictedOutput)^2
+```
+
+This gives us a measure of the total error of the neural network.
+
+We can use the *gradient descent* to find the minimum by taking steps proportional
+to the negative gradient.
+
+
+## Formula for adjusting weights
+
+Adjust weights by = Input * ErrorInOutput * SigmoidCurve Gradient
+
+where:
+
+Sigmoid gradient = NeuronOutput * (1 - NeuronOuput)
+
+
