@@ -48,7 +48,7 @@ neuron output = ActivationFunction(incomingSignal)
 For this demo, we'll use the *sigmoid function* as our activation function.
 The sigmoid function uses Euler's number (e): 1 / 1+e^-x, where x is the input.
 
-<img height=200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/640px-Logistic-curve.svg.png" />
+<img height=200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/640px-Logistic-curve.svg.png" />  
 (source: wikipedia)
 
 So for our purposes, the sigmoid function will be:
