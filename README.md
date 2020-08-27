@@ -51,9 +51,10 @@ The sigmoid function uses Euler's number (e): 1 / 1+e^-x, where x is the input.
 <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/640px-Logistic-curve.svg.png" />  
 (source: wikipedia)
 
-So for our purposes, the sigmoid function will be:
+So our functions will be:
 
 ```
-1 / 1 + e^-(*NeuronInput*)
+Neuron input: Σ(Inputᵢ*Weightᵢ)
+Neuron output:  1 / 1 + e^(-NeuronInput)
 ```
 
